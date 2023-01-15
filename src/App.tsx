@@ -7,7 +7,7 @@ function App({ name = "app1", configuration = {} }) {
   if(name === "app1") {
     return (
       <div className="App">
-        <App1 />
+        <App1 configuration = { configuration } />
       </div>
     );
   } else {
