@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import App1 from './espinaco/apps/app1/App1';
+import App1 from './espinaco-r3f/apps/app1/App1';
 
 function App({ name = "app1", configuration = {} }) {
   if(name === "app1") {
